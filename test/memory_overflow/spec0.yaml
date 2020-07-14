@@ -1,0 +1,7 @@
+components:
+  schemas:
+    ObjectA:
+      type: object
+      properties:
+        object_b:
+          $ref: 'spec0.yaml#/components/schemas/ObjectD'

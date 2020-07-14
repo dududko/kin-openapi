@@ -1,0 +1,13 @@
+components:
+  schemas:
+    ObjectD:
+      type: object
+      properties:
+        result:
+          $ref: "#/components/schemas/ObjectE"
+
+    ObjectE:
+      properties:
+        name:
+          $ref: "packageX/spec2.yaml#/components/schemas/ObjectX"
+
